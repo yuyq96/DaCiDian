@@ -40,11 +40,11 @@ pinyin_to_phone is a user-defined mapping from PinYin syllables to target phone 
 
 Take traditional PinYin's Initial-Final structure for example, a mapping should be defined as follows:
 ```
-A	$0 a
-AI	$0 ai
-AN	$0 an
-ANG	$0 ang
-AO	$0 ao
+A	aa a
+AI	aa ai
+AN	aa an
+ANG	aa ang
+AO	aa ao
 BA	b a
 BAI	b ai
 BAN	b an
@@ -63,7 +63,7 @@ ZUO	z uo
 ```
 
 * syllable and its phoneme representation are seperated by __tab__ 
-* __$0__ is the NULL-Initial phone.
+* __aa__ is a NULL-Initial phone.
 
 ---
 ## Notes
